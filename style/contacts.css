@@ -1,0 +1,23 @@
+
+h2 {
+	background: #1E90FF; 
+    background: linear-gradient(to top, #4169E1, #c9d1ff);
+    padding: 40px;
+    border: 0px solid #000;
+  color: #FAEBD7;
+  font-size: 50px;
+  font-family: MONOSPACE;
+  font-weight: lighter;
+  text-align: center;
+}
+h3 {
+  color: #000000;
+  font-size: 20px;
+  font-family:Lobster, cursive;
+  text-align: center;
+}
+body {
+background-color: #fff;
+}
+
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Открытие вклада</title>
+<link rel="stylesheet" type="text/css" href="style/opening_a_deposit.css" />
+</head>
+<body>
+<div class="form-wrap">
+  <div class="profile"><img src="https://html5book.ru/wp-content/uploads/2016/10/profile-image.png">
+    <h1>Регистрация</h1>
+  </div>
+  <form method="post" action="form_deposit.php">
+    <div>
+      <label for="surname">Фамилия</label>
+      <input type="text" name="surname" required>
+    </div>
+    <div>
+      <label for="name">Имя</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+      <label for="middlename">Отчество</label>
+      <input type="text" name="middlename" required>
+    </div>
+    <div>
+      <label for="passport">Номер паспорта</label>
+      <input type="text" name="passport" required>
+    </div>
+    <div>
+      <label for="phone">Телефон</label>
+      <input type="text" name="phone" required>
+    </div>
+    <div>
+      <label for="sum">Введите сумму вклада</label>
+      <input type="text" name="sum" required>
+    </div>
+    <div>
+      <label for="deposit">Вклад</label>
+      <select name="deposit">
+        <option>Выберите вклад</option>
+        <option value="Сохраняй">Сохраняй (Ставка до 4%, Сумма от 10000р.)</option> 
+        <option value="Пополняй">Пополняй (Ставка до 3,8%, Сумма от 1000р.)</option> 
+        <option value="Управляй">Управляй (Ставка до 3,4%, Сумма от 30000р.)</option> 
+      </select> 
+      <div class="select-arrow"></div> 
+    </div> 
+    <button type="submit">Подтвердить</button> 
+  </form> 
+</div>
+</body>
+</html>
